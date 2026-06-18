@@ -14,19 +14,25 @@ cube_prim_blue = DynamicCuboid(                              # 4. Prim
     prim_path="/World/BlueCube",
     name="blue_cube",
     position=np.array([0.0, 0.0, 1.0]),
-    scale=np.array([0.10, 0.10, 0.10]),
+    scale=np.array([0.15, 0.15, 0.15]),
     color=np.array([0.0, 0.0, 1.0]),
 )
 
-cube_prim_red = DynamicCuboid(                              # 4. Prim
-    prim_path="/World/RedCube",
-    name="red_cube",
-    position=np.array([0.0, 0.0, 0.50]),
-    scale=np.array([0.3, 0.3, 0.3]),
-    color=np.array([1.0, 0.0, 0.0]),
-)
+# cube_prim_red = DynamicCuboid(                              # 4. Prim
+#     prim_path="/World/RedCube",
+#     name="red_cube",
+#     position=np.array([0.0, 0.0, 1.0]),
+#     scale=np.array([0.3, 0.3, 0.3]),
+#     color=np.array([1.0, 0.0, 0.0]),
+# )
 
-
+# cube_prim_green = DynamicCuboid(                              # 4. Prim
+#     prim_path="/World/GreenCube",
+#     name="green_cube",
+#     position=np.array([0.0, 0.0, 1.5]),
+#     scale=np.array([0.15, 0.15, 0.15]),
+#     color=np.array([0.0, 1.0, 0.0]),
+# )
 
 
 
@@ -45,9 +51,9 @@ while simulation_app.is_running():                      # 6. Simulation
     if step_count % 100 == 0 :
         print(step_count)
     
-    if step_count == 300 :
-        world.reset()
-        world.stop()
+    # if step_count == 300 :
+    #     world.reset()
+    #     world.stop()
 
 
 

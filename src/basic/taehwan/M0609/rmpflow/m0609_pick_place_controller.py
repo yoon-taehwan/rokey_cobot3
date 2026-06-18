@@ -4,7 +4,7 @@ import isaacsim.robot.manipulators.controllers as manipulators_controllers
 from isaacsim.core.prims import SingleArticulation
 from isaacsim.robot.manipulators.grippers.parallel_gripper import ParallelGripper
 
-from m0609_rmpflow_controller import RMPFlowController
+from .m0609_rmpflow_controller import RMPFlowController
 
 
 class PickPlaceController(manipulators_controllers.PickPlaceController):
