@@ -7,4 +7,4 @@ __pycache__/
 *.onnx
 *.pt
 *.pth
-Collected_*/
+
